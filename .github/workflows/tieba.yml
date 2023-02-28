@@ -1,4 +1,4 @@
-# 每天9:30执行
+# 每天4:10执行
 
 name: Start
 
@@ -6,7 +6,7 @@ on:
    push:
    gollum:
    schedule:
-       - cron: '30 01 * * *'
+       - cron: '10 20 * * *'
 
 jobs:
   TiebaSignIn:
